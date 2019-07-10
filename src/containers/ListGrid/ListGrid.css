@@ -1,0 +1,39 @@
+.image {
+  border: 1px solid black;
+}
+
+.searched {
+  border: 1px solid red;
+}
+
+.image:hover {
+  border: 5px solid rgb(231, 14, 14);
+  cursor: pointer;
+}
+
+.cardContainer {
+  position: fixed;
+  top: 10rem;
+  right: 10rem;
+}
+
+.card {
+  height: 25rem;
+  width: 10rem;
+}
+
+@media (max-width: 1280px) {
+  .cardContainer {
+    position: relative;
+    bottom: 0;
+  }
+
+  .card {
+    height: 30rem;
+    margin-left: 20px;
+  }
+
+  .chart {
+    margin-bottom: 200px;
+  }
+}
